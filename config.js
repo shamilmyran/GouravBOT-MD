@@ -58,22 +58,22 @@ global.ppulsa2 = '083143393763'
 global.psaweria = 'https://saweria.com/kannabotz'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '918089152280'
-global.nomorown = '918089152280'
+global.nomorbot = '917025770987'
+global.nomorown = '917025770987'
 global.namebot = 'GOURAV BOT'
 global.nameown = 'Gourav'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['918089152280'],
+  ['917025770987'],
   ['918089152280'],
   ['918089152280'],
   ['917025770987', '❦ 𝗚𝗼𝘂𝗿𝗮𝘃', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
-global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.prems = ['917025770987'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
 /*============== API ==============*/
@@ -162,7 +162,7 @@ global.thumbdoc = 'https://telegra.ph/file/56f641c3cf138aa7f27b2.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
-global.fpagedoc = '999'
+global.fpagedoc = '3609'
 
 /*=========== HIASAN ===========*/
 // DEFAULT MENU
