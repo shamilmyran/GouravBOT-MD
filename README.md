@@ -78,7 +78,7 @@
 ---------
 
 ## ```Heroku Buildpack```
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Gourav3609/KannaBOT-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/darkdevil3610/KannaBOT-MD)
 
 | BuildPack | LINK |
 |--------|--------|
