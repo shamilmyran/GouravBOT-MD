@@ -208,41 +208,41 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `${htki} MAIN ${htka}`,
 	rows: [
-	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".ping", description: "Menampilkan kecepatan respon BOT"},
-	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
-	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
+	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".ping", description: "respon BOT"},
+	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: " List owner BOT"},
+	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code by Gourav`},
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
 	rows: [
-	    {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
-	    {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
-	    {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
+	    {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "sewa BOT"},
+	    {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "premium"},
+	    {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT'},
 	]
 	},{
 	title: `${htki} MENU ${htka}`,
 	rows: [
-	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "All command BOT"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
-	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
-	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
-	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
-	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
+	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Exp!"},
+	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Game >-<"},
+	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fune"},
+	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "menu"},
+	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random quotes"},
+	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Anime"},
+	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "unknown"},
 	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
-	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
-	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
-	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
-	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
-	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
+	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Anonymous"},
+	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Menu unknown"},
+	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "BOT"},
+	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Downloader menu"},
+	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Sticker menu"},
+	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis"},
+	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Audio Filter"},
 	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
 	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
 	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
-	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
+	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "tools "},
 	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
 	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
 	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
@@ -505,7 +505,7 @@ const listMessage = {
     //conn.sendButton(m.chat, text, wm, 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4', [['Ping', '.ping'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
     
   } catch (e) {
-    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    conn.reply(m.chat, 'Sorry, menu sending error', m)
     throw e
   }
 }
