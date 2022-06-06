@@ -11,38 +11,28 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
-• Berbicaralah yang sopan & tidak spam
-• Owner Hanya merespon yang berkaitan dengan BOT
-• No Telp`
+• Follow me on Instagram 
+• https://instagram.com/dark_devil_3609 `
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *Nama RP:* Letta
-${htjava} *Nama RL:* Aarav
-${htjava} *Umur:* 13 Tahun
-${htjava} *Kelas:* 7 Smp
-${htjava} *Status:* Couple
+${htjava} *Name:* Gourav
+${htjava} *Status:* 
 
-${htjava} *Ulang Tahun:* 5 Oct 2008
-${htjava} *Alamat:* Indonesia, jawa barat, bogor
-${htjava} *Skills:* 
-> JavaScript [89.7%]
-> Python [13.4%]
-> Html [1.2%]
+${htjava} *Birthday:* 6 Oct 2005
+${htjava} *Address:* India,Kerala,Kollam
 
 ${htjava} *Instagram:* ${sig}
 ${htjava} *Github:* ${sgh}
 •·––––––––––––––––––––––––––·•
 `
-  let teks = 'P - Pilih dibawah kak ! ⁄(⁄ ⁄•⁄-⁄•⁄ ⁄)⁄'
+  let teks = 'ī.am 𝗚𝗼𝘂𝗿𝗮𝘃  ⁄(⁄ ⁄•⁄-⁄•⁄ ⁄)⁄'
 const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
-	    {title: "📱 • Nomor", rowId: ".owner nomor"},
+	    {title: "📱 • Name", rowId: ".owner nomor"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
 	{title: "🌎 • Script", rowId: ".sc"},
 	]
