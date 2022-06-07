@@ -2,7 +2,7 @@ import gtts from 'node-gtts'
 import { readFileSync, unlinkSync } from 'fs'
 import { join } from 'path'
 
-const defaultLang = 'id'
+const defaultLang = 'en'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
   let lang = args[0]
@@ -30,7 +30,7 @@ handler.command = /^g?tts$/i
 
 export default handler
 
-function tts(text, lang = 'id') {
+function tts(text, lang = 'en') {
   console.log(lang, text)
   return new Promise((resolve, reject) => {
     try {
