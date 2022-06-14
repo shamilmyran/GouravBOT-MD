@@ -45,9 +45,9 @@ let wibh = moment.tz('Asia/Kolkata').format('HH')
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 global.sig = 'https://instagram.com/dark_devil_3609'
 global.sgh = 'https://github.com'
-global.sgc = 'https://chat.whatsapp.com'
-global.sdc = 'https://discord.gg/WEJQjugTY7'
-global.snh = 'https://nhentai.net/g/365296/'
+global.sgc = 'https://www.whatsapp.com/otp/copy/𝗚𝗼𝘂𝗿𝗮𝘃'
+global.sdc = 'https://discord.gg'
+global.snh = 'https://instagram.com/dark_devil_3609/'
 
 /*============== PAYMENT ==============*/
 global.pdana = '085712420674'
@@ -188,7 +188,7 @@ global.htjava = '⫹⫺' //hiasan Doang :v
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎\n𝗚𝗼𝘂𝗿𝗮𝘃 𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `☂︎\n𝗚𝗼𝘂𝗿𝗮𝘃 𝗕𝗢𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 
 global.multiplier = 38 // The higher, The harder levelup
 
