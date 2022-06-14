@@ -7,4 +7,4 @@ handler.tags = ['sticker']
 
 handler.command = /^attp$/i
 
-module.exports = handler
+export default handler
