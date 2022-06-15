@@ -475,7 +475,7 @@ const listMessage = {
                 },
                 {
                     urlButton: {
-                        displayText: '💌 Group Official',
+                        displayText: '💌 Instagram',
                         url: sgc
                     }
                 },
