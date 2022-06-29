@@ -58,9 +58,9 @@ global.ppulsa2 = '083143393763'
 global.psaweria = 'https://saweria.com/kannabotz'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '917025770987'
-global.nomorown = '917025770987'
-global.namebot = 'GOURAV BOT'
+global.nomorbot = '918089152280'
+global.nomorown = '918089152280'
+global.namebot = '𝐺𝛩𝑈𝑅𝛥𝛻 BOT'
 global.nameown = 'Gourav'
 
 
@@ -73,7 +73,7 @@ global.owner = [
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
-global.prems = ['917025770987'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.prems = ['918089152280'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
 /*============== API ==============*/
@@ -114,7 +114,7 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 GOURAV BOT あ⁩ 」' //Main Watermark
+global.wm = '                「 𝐺𝛩𝑈𝑅𝛥𝛻 BOT あ⁩ 」' //Main Watermark
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Gourav - ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺ 𝗚𝗼𝘂𝗿𝗮𝘃 𝗕𝗢𝗧'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
