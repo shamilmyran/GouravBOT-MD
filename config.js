@@ -26,7 +26,7 @@ let wibh = moment.tz('Asia/Kolkata').format('HH')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
-    let locale = 'id'
+    let locale = 'in'
     // d.getTimeZoneOffset()
     // Offset -420 is 18.00
     // Offset    0 is  0.00
