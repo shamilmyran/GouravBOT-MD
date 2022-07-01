@@ -1,29 +1,24 @@
 {
-"name": "Gourav",
-  "description": "Toxic-Alexa_V2 whatsapp bot by Turbo and Jifi",
-  "repository": "https://github.com/darkdevil3610/KannaBOT-MD",
-  "logo": "https://telegra.ph/file/56f641c3cf138aa7f27b2.jpg",
-  "keywords": ["bot", "whatsapp", "whatsapp-bot"],
-
-    "buildpacks": [
-
-        {
-
-            "url": "heroku/nodejs"
-
-        },
-
-        {
-
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-
-        },
-
-        {
-
-            "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
-
+  "name": "GOURAV BOT",
+  "description": "𝗚𝗼𝘂𝗿𝗮𝘃-𝗕𝗢𝗧࿐",
+  "repository": "https://github.com/darkdevil3610/KannaBOT-MD36",
+  "logo": "https://i.imgur.com/PL9zqZC.jpeg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
         }
-
-    ]
+    }
 }
