@@ -120,7 +120,7 @@ global.wm3 = '⫹⫺ 𝗚𝗼𝘂𝗿𝗮𝘃 𝗕𝗢𝗧'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = `⫹⫺ GS BOT Whatsapp | By ${global.nameown}`
-global.author = '                「 Gourav BOT あ⁩ 」'
+global.author = ' 「 Gourav BOT あ⁩ 」'
 
 
 /*============== LOGO ==============*/
