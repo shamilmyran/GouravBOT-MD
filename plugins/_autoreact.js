@@ -1,13 +1,13 @@
 let handler = async (m, { conn, text }) => {
     conn.sendMessage(m.chat, {
           react: {
-            text: `${pickRandom(['🎧','🤖','😍','😨','😅','😂','😳','😎', '🥵', '😱', '🐦', '🙄', '💙','🤖','🐦','🤨','🥴','😐','🦄','😔','👀','👎'])}`,
+            text: `${pickRandom(['☣️','🤖','😍','😨','😅','😂','😳','😎', '🥵', '😱', '🐦', '🙄', '💙','🤖','🐦','🤨','🥴','😐','🦄','😔','👀','👎'])}`,
             key: m.key,
           }})
 
   }
 
-handler.customPrefix = /(da|hlo|play|help|hi|list|bro|sc|git|poda|gourav|ok|Dude|hello|gouravey)/i
+handler.customPrefix = /(da|hlo|help|ghithub|hi|list|bro|ser|poda|gourav|ok|Dude|hello|gouravey)/i
 handler.command = new RegExp
   
 handler.mods = false
