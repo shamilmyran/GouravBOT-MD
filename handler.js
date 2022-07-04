@@ -754,9 +754,9 @@ global.dfail = (type, m, conn) => {
     if (msg) return conn.reply(m.chat, msg, m, { contextInfo: { externalAdReply: {title: global.wm, body: '404 Access denied ✘', sourceUrl: global.snh, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
     
     let msgg = {
-    	unreg: 'Hello Bro ! 👋\nBot is created by Gourav\n\nGOURAV BOT !'
+    	unreg: 'Hello Bro ! 👋\nBot is created by Gourav\n\nGOURAV BOT\n\nIf verify button not work use this command to verify .verify your name.17'
 }[type]
-if (msgg) return conn.sendHydrated(m.chat, msgg, global.wm, null, global.sgc, '🌎 Join My Group Official', `${m.sender.split`@`[0]}`, '🌹 U S E R', [
+if (msgg) return conn.sendHydrated(m.chat, msgg, global.wm, null, global.sgc, 'INSTAGRAM', `${m.sender.split`@`[0]}`, '🌹 U S E R', [
       ['▣ VERIFY ▣', '/daftar'],
       [null,null],
       [null, null]
