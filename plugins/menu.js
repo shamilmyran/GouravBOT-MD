@@ -436,7 +436,7 @@ const listMessage = {
     //------------------< MENU >----------------
     
     //------------------ SIMPLE
-   conn.reply(m.chat, text, fkon, { contextInfo: { mentionedJid: [m.sender],
+   /*conn.reply(m.chat, text, fkon, { contextInfo: { mentionedJid: [m.sender],
         externalAdReply: {
             title: `${htjava} ${namebot}`,
             body: titlebot,
@@ -446,7 +446,7 @@ const listMessage = {
          mediaUrl: sig
         }
      }
-    })
+    })*/
     
     //------------------ DOCUMENT
     let d1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -457,7 +457,7 @@ const listMessage = {
     let td = `${pickRandom([d1,d2,d3,d4,d5])}`
     
     //-------DOC TEMPLATE
-    //const message = {
+    /*const message = {
             document: { url: thumb },
             jpegThumbnail: await (await fetch(thumb)).buffer(),
             fileName: '𝗧 𝗜 𝗠 𝗘 : ' + wktuwib,
@@ -499,7 +499,7 @@ const listMessage = {
                 },
             ]
         }
-       / await conn.sendMessage(m.chat, message)
+        await conn.sendMessage(m.chat, message)*/
         
     //------------------- BUTTON VID
     conn.sendButton(m.chat, text, wm, 'https://i.imgur.com/GLCRfRx.mp4', [['Ping', '.ping'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
