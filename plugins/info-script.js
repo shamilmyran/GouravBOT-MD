@@ -12,15 +12,12 @@ let text = `❏ *📮 Script Multi Device*
 │↳ https://instagram.com/dark_devil_3609
 ┗──────────═┅═──────────
 📍 *N o t e :* 
-• Jangan lupa minta izin owner sebelum menggunakan scriptnya kak!
-• Jangan Lupa kasih star, follow & kasih credit
-• Dilarang menjual Script Ini!
-• Jika menemukan bug di script, harap lapor owner
-• Dilarang reupload sc, Hanya boleh fork
+• Follow me on instagram to get Ghithub link of the bot
+• https://cutt.ly/mKSJt3s
 `
 const templateButtons = [
     {index: 1, urlButton: {displayText: 'My Github', url: sgh}},
-    {index: 2, urlButton: {displayText: 'Group Official', url: sgc}},
+    {index: 2, urlButton: {displayText: 'INSTAGRAM', url: sgc}},
     {index: 3, quickReplyButton: {displayText: 'Owner', id: '.owner'}},
     {index: 4, quickReplyButton: {displayText: 'Donasi', id: '.donasi'}},
 ]
