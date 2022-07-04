@@ -14,18 +14,14 @@ const defaultMenu = {
 %m2 *Tag:* %tag
 %m2 *Status:* %prems
 %m2 *Limit:* %limit
-%m2 *Money:* %money
-%m2 *Role:* %role
 %m2 *Level:* %level [ %xp4levelup Xp For Levelup]
-%m2 *Xp:* %exp / %maxexp
 %m2 *Total Xp:* %totalexp
 %m3
 
 %m1 *T O D A Y*
 %m2 *%ucpn*
-%m2 *Days:* %week %weton
+%m2 *Days:* %weton
 %m2 *Date:* %date
-%m2 *Islamic Date:* %dateIslamic
 %m2 *Time:* %wib
 %m3
 
@@ -37,7 +33,6 @@ const defaultMenu = {
 %m2 *Baileys:* Multi Device
 %m2 *Prefix:* [ *%_p* ]
 %m2 *Uptime:* %muptime
-%m2 *Database:* %rtotalreg dari %totalreg
 %m3
 
 %m1 *I N F O  C M D* 
@@ -293,12 +288,12 @@ const listMessage = {
     let ucpn = `${ucapan()}`
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let d = new Date(new Date + 3600000)
-    let locale = 'id'
+    let locale = 'in'
     // d.getTimeZoneOffset()
     // Offset -420 is 18.00
     // Offset    0 is  0.00
     // Offset  420 is  7.00
-    let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
+    let weton = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri','Sat','Sun'][Math.floor(d / 84600000) % 5]
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
     let date = d.toLocaleDateString(locale, {
       day: 'numeric',
