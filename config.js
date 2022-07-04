@@ -58,8 +58,8 @@ global.ppulsa2 = '083143393763'
 global.psaweria = 'https://saweria.com/kannabotz'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '918089152280'
-global.nomorown = '918089152280'
+global.nomorbot = '917025770987'
+global.nomorown = '917025770987'
 global.namebot = '𝐺𝛩𝑈𝑅𝛥𝛻 BOT'
 global.nameown = 'Gourav'
 
@@ -73,7 +73,7 @@ global.owner = [
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
-global.prems = ['918089152280'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.prems = ['917025770987'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
 /*============== API ==============*/
