@@ -457,7 +457,7 @@ const listMessage = {
     let td = `${pickRandom([d1,d2,d3,d4,d5])}`
     
     //-------DOC TEMPLATE
-    const message = {
+    //const message = {
             document: { url: thumb },
             jpegThumbnail: await (await fetch(thumb)).buffer(),
             fileName: '𝗧 𝗜 𝗠 𝗘 : ' + wktuwib,
@@ -499,10 +499,10 @@ const listMessage = {
                 },
             ]
         }
-        await conn.sendMessage(m.chat, message)
+       / await conn.sendMessage(m.chat, message)
         
     //------------------- BUTTON VID
-    //conn.sendButton(m.chat, text, wm, 'https://i.imgur.com/GLCRfRx.mp4', [['Ping', '.ping'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
+    conn.sendButton(m.chat, text, wm, 'https://i.imgur.com/GLCRfRx.mp4', [['Ping', '.ping'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
     
   } catch (e) {
     conn.reply(m.chat, 'Sorry, menu sending error', m)
