@@ -470,12 +470,12 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `🎀 ${namebot}`,
-                        url: 'https://bit.ly/36RRYSF'
+                        url: 'https://cutt.ly/mKSJt3s'
                     }
                 },
                 {
                     urlButton: {
-                        displayText: '💌 Instagram',
+                        displayText: '💌 Instagram ID',
                         url: sgc
                     }
                 },
@@ -552,7 +552,7 @@ function ucapan() {
     res = "Good Afternoon ☀️"
   }
   if (time >= 15) {
-    res = "Good Afternoon 🌇"
+    res = "Good Evening 🌇"
   }
   if (time >= 18) {
     res = "Good Night 🌙"
