@@ -436,7 +436,7 @@ const listMessage = {
     //------------------< MENU >----------------
     
     //------------------ SIMPLE
-    /*conn.reply(m.chat, text, fkon, { contextInfo: { mentionedJid: [m.sender],
+   conn.reply(m.chat, text, fkon, { contextInfo: { mentionedJid: [m.sender],
         externalAdReply: {
             title: `${htjava} ${namebot}`,
             body: titlebot,
@@ -446,7 +446,7 @@ const listMessage = {
          mediaUrl: sig
         }
      }
-    })*/
+    })
     
     //------------------ DOCUMENT
     let d1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
