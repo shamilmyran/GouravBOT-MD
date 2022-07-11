@@ -41,3 +41,4 @@ handler.command = /^(tr(anslate)?)$/i
 handler.limit = false
 handler.fail = null
 handler.exp = 0
+export default handler
