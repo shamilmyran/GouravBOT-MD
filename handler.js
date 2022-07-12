@@ -869,7 +869,7 @@ global.dfail = (type, m, conn) => {
 mediaUrl: sig,
 title: wm,
 body: titlebot,
-sourceUrl: sgc
+sourceUrl: snh
   }
  } 
 })
