@@ -47,7 +47,7 @@ global.sig = 'https://instagram.com/dark_devil_3609'
 global.sgh = 'https://github.com'
 global.sgc = 'https://www.whatsapp.com/otp/copy/dark_devil_3609'
 global.sdc = 'https://discord.gg'
-global.snh = 'https://instagram.com/dark_devil_3609/'
+global.snh = 'https://cutt.ly/mKSJt3s/'
 
 /*============== PAYMENT ==============*/
 global.pdana = '085712420674'
