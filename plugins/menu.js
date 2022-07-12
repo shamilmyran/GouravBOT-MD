@@ -17,18 +17,12 @@ const defaultMenu = {
 %m2 *Tag:* %tag
 %m2 *Status:* %prems
 %m2 *Limit:* %limit
-%m2 *Money:* %money
-%m2 *Role:* %role
-%m2 *Level:* %level [ %xp4levelup Xp For Levelup]
-%m2 *Xp:* %exp / %maxexp
-%m2 *Total Xp:* %totalexp
 %m3
 
 %m1 *T O D A Y*
 %m2 *%ucpn*
-%m2 *Days:* %week %weton
+%m2 *Days:* %weton
 %m2 *Date:* %date
-%m2 *Islamic Date:* %dateIslamic
 %m2 *Time:* %wib
 %m3
 
@@ -224,11 +218,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `${htki} MAIN ${htka}`,
 	rows: [
-	    {title: `📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon Fangz BOT"},
-	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner Fangz BOT"},
+	    {title: `📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon GOURAV BOT"},
+	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner GOURAV BOT"},
 	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	{title: `📮 ${pmenus} RULES BOT`, rowId: ".rules", description: `Peraturan menggunakan ${namebot}`},
-	{title: `🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur Fangz BOT"},
+	{title: `🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur GOURAV BOT"},
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
@@ -236,7 +230,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	    {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
 	    {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga upgrade premium"},
 	    {title: `💰 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar on 1 Minggu non stop'},
-	{title: `✨ ${pmenus} RATE`, rowId: ".rate", description: 'Support BOT agar Semangat update'},
 	{title: `🌐 ${pmenus} WEBSITE`, rowId: ".website", description: 'Jangan lupa mampir'},
 	]
 	},{
@@ -293,17 +286,16 @@ let tek = `*✧${ucapan()} ${conn.getName(m.sender)}*
 🎐• *ᴛɪᴍᴇ:* ${moment.tz('Asia/Kolkata').format('HH')} H  ${moment.tz('Asia/Kolkata').format('mm')} M  ${moment.tz('Asia/Kolkata').format('ss')} S
 🎐• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
 🎐• *ʟɪᴍɪᴛ:* ${usrs.limit}
-🎐• *ʟᴇᴠᴇʟ:* ${usrs.level}
 🎐• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
 🎐• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 
 
-               「 *𝐺𝛩𝑈𝑅𝛥𝛻 BOT あ⁩* 」
+             「 *𝐺𝛩𝑈𝑅𝛥𝛻 BOT あ⁩* 」
 `
 const listMessage = {
   text: tek,
-  footer: 'By https://cutt.ly/mKSJt3s/\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕',
+  footer: 'https://cutt.ly/mKSJt3s/\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `𝐺𝛩𝑈𝑅𝛥𝛻 BOT MENU`,
@@ -511,7 +503,7 @@ const listMessage = {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n⚡ Supported By Fangz TEAM',
+            footer: titlebot + '\n⚡By GOURAV',
             templateButtons: [
                 {
                     urlButton: {
@@ -521,7 +513,7 @@ const listMessage = {
                 },
                 {
                     urlButton: {
-                        displayText: 'Group Official',
+                        displayText: 'INSTAGRAM ID',
                         url: sgc
                     }
                 },
@@ -560,7 +552,7 @@ handler.tags = ['main']
 handler.command = /^(menu|help|\?)$/i
 
 handler.register = false
-handler.exp = 3
+handler.exp = 1
 
 export default handler
 
