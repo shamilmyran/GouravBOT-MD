@@ -1,7 +1,7 @@
 {
   "name": "GOURAV BOT",
   "description": "𝗚𝗼𝘂𝗿𝗮𝘃-𝗕𝗢𝗧࿐",
-  "repository": "https://github.com/darkdevil3610/KannaBOT-MD36",
+  "repository": "https://github.com/darkdevil3610/GouravBOT-MD",
   "logo": "https://i.imgur.com/PL9zqZC.jpeg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
