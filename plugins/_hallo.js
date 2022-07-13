@@ -14,7 +14,7 @@ image: {url: fla + 'Donasi'}
 }
 conn.sendMessage(m.chat, tm, m)
 }
-handler.customPrefix = /^(owner|hello|p)$/i
+handler.customPrefix = /^(owner|doubt|p)$/i
 handler.command = new RegExp
 
 export default handler
