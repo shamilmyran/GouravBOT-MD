@@ -1,7 +1,7 @@
 let handler = async (m, { conn, command }) => {
 m.reply('Wait 🐦')
 let audio = `https://github.com/Amal-ser/Amalsir/tree/master/Amal_bgms_2/${command}.mp3`
-await conn.sendFile(m.chat, audio, 'gourav.ppt', null, m, true)
+await conn.sendFile(m.chat, MessageType.audio,{ mimetype: Mimetype.mp4Audio, ptt: true,quoted: message.data});
 }
 
 handler.command = handler.help = [
