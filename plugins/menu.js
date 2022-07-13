@@ -277,7 +277,6 @@ let tek = `*✧${ucapan()} ${conn.getName(m.sender)}*
 🌸• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
 🌸• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
 🌸• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-🌸• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 
 
 
