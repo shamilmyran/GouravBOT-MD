@@ -1,7 +1,7 @@
 let handler = async (m, { conn, command }) => {
 m.reply('Wait')
 let audio = `https://github.com/Amal-ser/Amalsir/tree/master/Amal_bgms_2/${command}.mp3`
-Kannabotmd.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })
+sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })
 }
 
 handler.command = handler.help = [
