@@ -469,7 +469,7 @@ const listMessage = {
     //------------------< MENU >----------------
     
     //------------------ SIMPLE
-   conn.sendButton(m.chat, hi, text.trim(), await( await conn.getFile(ppb)).data, [['OWNER', '-owner']], false, { quoted: m, contextInfo: { externalAdReply: { showAdAttribution: true,
+ //  conn.sendButton(m.chat, hi, text.trim(), await( await conn.getFile(ppb)).data, [['OWNER', '-owner']], false, { quoted: m, contextInfo: { externalAdReply: { showAdAttribution: true,
    mediaType:  2,
    mediaUrl: 'https://youtu.be/Nq3x1AkwgpY',
    title: time,
@@ -477,12 +477,12 @@ const listMessage = {
    sourceUrl: 'http://s.id/0x404', thumbnail: await( await conn.getFile(ppl)).data
     
     //------------------ DOCUMENT
-   /* let d1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
+    let d1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
     let d2 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
     let d3  = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     let d4 = 'application/pdf'
     let d5 = 'text/rtf'
-    let td = `${pickRandom([d1,d2,d3,d4,d5])}`*/
+    let td = `${pickRandom([d1,d2,d3,d4,d5])}`
     
     //------- BUTTON DOC WITH EXTERNAL ADS
     MAMPUS DI ENC :v
@@ -531,7 +531,7 @@ const listMessage = {
                 },
             ]
         }
-        //await conn.sendMessage(m.chat, message, m, { mentionedJid: [m.sender] })
+        await conn.sendMessage(m.chat, message, m, { mentionedJid: [m.sender] })
         
     //------------------- BUTTON VID
   //  conn.sendButton(m.chat, text, wm, 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4', [['Ping', '.ping'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
