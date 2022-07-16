@@ -477,12 +477,12 @@ const listMessage = {
    sourceUrl: 'http://s.id/0x404', thumbnail: await( await conn.getFile(ppl)).data
     
     //------------------ DOCUMENT
-    let d1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
+   /* let d1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
     let d2 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
     let d3  = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     let d4 = 'application/pdf'
     let d5 = 'text/rtf'
-    let td = `${pickRandom([d1,d2,d3,d4,d5])}`
+    let td = `${pickRandom([d1,d2,d3,d4,d5])}`*/
     
     //------- BUTTON DOC WITH EXTERNAL ADS
     MAMPUS DI ENC :v
