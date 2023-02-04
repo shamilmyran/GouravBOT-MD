@@ -86,11 +86,11 @@ global.loadDatabase = async function loadDatabase() {
 loadDatabase()
 
 global.authFile = `${opts._[0] || 'session'}.data.json`
-//const { state, saveState } = useSingleFileAuthState(global.authFile)
+const { state, saveState } = useSingleFileAuthState(global.authFile)
 
 const connectionOptions = {
   printQRInTerminal: true,
-  //auth: state,
+  auth: state,
   // logger: pino({ level: 'trace' })
 }
 
