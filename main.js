@@ -90,7 +90,7 @@ global.authFile = `${opts._[0] || 'session'}.data.json`
 
 const connectionOptions = {
   printQRInTerminal: true,
-  auth: state,
+  //auth: state,
   // logger: pino({ level: 'trace' })
 }
 
